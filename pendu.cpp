@@ -55,7 +55,7 @@ int main() {
             std::cout << "This is the guessing turn" << std::endl;
             std::cout <<"\nHINT : \"" << playerWordDescriptions << "\"" << std::endl;
 
-            std::string motADeviner = playerWord;
+            std::string motADeviner = playerWord;   // Word to guess is entered word
             std::vector<bool> lettresDevinees(motADeviner.size(), false);   // Vector that tells wether letter has been guessed or not.
             std::vector<char> lettresJouees;                      // Vector of played letters.
 
